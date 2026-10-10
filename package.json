@@ -9,9 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "@libsql/kysely-libsql": "^0.4.1",
+    "better-auth": "^1.7.7",
+    "daisyui": "^5.7.47",
+    "kysely": "^0.29.6",
+    "lucide-react": "^1.53.0",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-hot-toast": "^2.6.1"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
@@ -22,5 +29,8 @@
     "eslint-config-next": "16.4.0",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
   }
 }
