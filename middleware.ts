@@ -1,3 +1,5 @@
+// Protected route guard — /product/* and /profile/* require authentication
+
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
