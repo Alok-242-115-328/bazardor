@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live URL:** _Coming soon after Vercel deployment_
+🔗 **Live URL:**  (https://a7-bazardor.netlify.app/)
 
 ---
 
