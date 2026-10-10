@@ -30,7 +30,7 @@
 }
 
 @theme {
-  --font-bangla: var(--font-hind), system-ui, sans-serif;
+  --font-bangla: var(--font-bengali), system-ui, sans-serif;
   --animate-ticker: ticker 45s linear infinite;
 
   @keyframes ticker {
@@ -43,7 +43,7 @@
 html, body { background: #faf8f3; }
 
 body {
-  font-family: var(--font-hind), system-ui, sans-serif;
+  font-family: var(--font-bengali), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 

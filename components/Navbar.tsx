@@ -34,7 +34,10 @@ export default function Navbar({
   }
 
   return (
-    <header className="sticky top-0 z-40 bg-white border-b border-base-300 shadow-sm">
+    <header
+  className="sticky top-0 z-40 bg-white border-b border-base-300 shadow-sm"
+  style={{ fontFamily: "var(--font-hind), system-ui, sans-serif" }}
+>
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 
 
@@ -53,7 +56,7 @@ export default function Navbar({
   </div>
 
   <div className="leading-tight">
-  <div className="text-xl font-bold text-base-content">বাজার দর</div>
+ <div className="text-xl font-bold tracking-tight">বাজার দর</div>
     <div className="text-xs text-base-content/60">{date}</div>
   </div>
 </Link>

@@ -9,12 +9,11 @@ export default function Hero() {
         <HeroDate />
 
         <h1 className="text-2xl md:text-4xl font-bold mt-1.5 leading-tight">
-          আজকের বাজারের দাম <span className="text-primary">এক নজরে</span>
+          আজকের বাজারের দাম এক নজরে 
         </h1>
 
         <p className="mt-1.5 text-xs md:text-sm text-base-content/70">
-          চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম ও মসলার দাম — বাজারভিত্তিক
-          বিস্তারিত, সহজ, সুবিধাজনক।
+          চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম ও মসলার দাম — বাজারভিত্তিক বিস্তারিত, গড়, সর্বনিম্ন-সর্বাধিক এবং দামের পরিবর্তন এক জায়গায়।
         </p>
 
         <Link
