@@ -53,3 +53,11 @@ body {
 }
 
 .ticker-track:hover { animation-play-state: paused; }
+
+
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
