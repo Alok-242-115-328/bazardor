@@ -8,7 +8,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live URL:**   https://a7-bazardor.netlify.app
+🔗 **Live URL:**    https://a7-bazardor.netlify.app
 
 ---
 
