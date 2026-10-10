@@ -120,9 +120,9 @@ export default function Navbar({
           </div>
         ) : (
           <div className="flex items-center gap-2">
-            <Link href="/signin" className="btn btn-ghost btn-sm gap-1">
-              <LogIn className="w-4 h-4" /> সাইন ইন
-            </Link>
+            <Link href="/signin" className="btn btn-ghost btn-sm">
+              সাইন ইন
+              </Link>
             <Link href="/signup" className="btn btn-primary btn-sm">
               সাইন আপ
             </Link>
