@@ -3,9 +3,11 @@ import { nextCookies } from "better-auth/next-js";
 import { Kysely } from "kysely";
 import { LibsqlDialect } from "@libsql/kysely-libsql";
 
+// Production-এ Turso, development-এ local file
 const db = new Kysely({
   dialect: new LibsqlDialect({
-    url: "file:sqlite.db",
+    url: process.env.TURSO_DATABASE_URL || "file:sqlite.db",
+    authToken: process.env.TURSO_AUTH_TOKEN,
   }),
 });
 
