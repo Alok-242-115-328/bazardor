@@ -129,6 +129,8 @@ export default function Navbar({
 
       <div className="border-t border-base-300">
         <div className="max-w-6xl mx-auto px-4 flex gap-2 overflow-x-auto py-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+
+
           {categories.map((c) => {
             const active = pathname === `/category/${c.slug}`;
             return (
@@ -137,7 +139,7 @@ export default function Navbar({
                 href={`/category/${c.slug}`}
                 className={`shrink-0 px-3 py-1.5 rounded-lg text-sm font-medium border transition ${
                   active
-                    ? "bg-secondary text-white border-secondary"
+                    ? "bg-primary text-white border-primary"
                     : "bg-white border-base-300 hover:border-primary text-base-content/80"
                 }`}
               >
